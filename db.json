@@ -1,3 +1,28 @@
 {
-  "pacientes": []
+  "fichas": [
+    {
+      "id": "22f3",
+      "nombre": "Bruno Diaz",
+      "numAsegurado": "987654",
+      "especialidad": "cardiologia"
+    },
+    {
+      "id": "0332",
+      "nombre": "Guillermo Puertas",
+      "numAsegurado": "456123",
+      "especialidad": "oftalmologia"
+    },
+    {
+      "id": "e8f8",
+      "nombre": "Diana Reyes",
+      "numAsegurado": "123456",
+      "especialidad": "ginecologia"
+    },
+    {
+      "id": "20db",
+      "nombre": "Carlos Sanz",
+      "numAsegurado": "456789",
+      "especialidad": "reumatologia"
+    }
+  ]
 }
