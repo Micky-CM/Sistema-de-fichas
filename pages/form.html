@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro para fichas</title>
+</head>
+<body>
+  <header></header>
+  <main>
+    <h2>Solicitud de Ficha Médica</h2>
+    <form id="fichaForm" data-form>
+      <label for="nombre">Nombre Completo:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="numAsegurado">Número de Asegurado:</label>
+      <input type="text" id="numAsegurado" name="numAsegurado" required>
+
+      <label for="especialidad">Especialidad:</label>
+      <select id="especialidad" name="especialidad" required>
+        <option value="">Seleccione una especialidad</option>
+        <option value="oftalmologia">Oftalmología</option>
+        <option value="reumatologia">Reumatología</option>
+        <option value="ginecologia">Ginecología</option>
+        <option value="cardiologia">Cardiología</option>
+      </select>
+
+      <button class="btn-enviar" type="submit">Solicitar Ficha</button>
+    </form>
+  </main>
+  <footer></footer>
+</body>
+</html>
