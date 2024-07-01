@@ -1,7 +1,7 @@
 import { agregarFichas } from './api.js'
 
 export async function manejarEnvioFormulario(event){
-  event.preventDefault()
+  event.preventDefault();
 
   const nombre = document.querySelector('#nombre').value
   const numAsegurado = document.querySelector('#numAsegurado').value
@@ -18,7 +18,12 @@ export async function manejarEnvioFormulario(event){
   try {
     const respuesta = await agregarFichas(ficha)
     console.log('Respuesta del servidor:', respuesta)
-    window.location.href = '../pages/solicitudExitosa.html'
+    if (respuesta && respuesta.id) {
+      console.log('Redireccionando a la página de solicitud exitosa')
+      window.location.href = '../pages/solicitudExitosa.html'
+    } else {
+      console.error('La respuesta no contiene el ID esperado:', respuesta)
+    }
   } catch (error){
     console.error('Error al agregar la ficha:', error)
   }

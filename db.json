@@ -23,6 +23,12 @@
       "nombre": "Carlos Sanz",
       "numAsegurado": "456789",
       "especialidad": "reumatologia"
+    },
+    {
+      "id": "8f9e",
+      "nombre": "Diana Reyes",
+      "numAsegurado": "123456",
+      "especialidad": "ginecologia"
     }
   ]
 }
