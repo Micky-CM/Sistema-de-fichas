@@ -1,34 +1,63 @@
 {
+  "especialidades": [
+    {
+      "id": "1",
+      "nombre": "Cardiología",
+      "cantidadFichas": 3
+    },
+    {
+      "id": "2",
+      "nombre": "Ginecología",
+      "cantidadFichas": 2
+    },
+    {
+      "id": "3",
+      "nombre": "Oftalmología",
+      "cantidadFichas": 3
+    }
+  ],
   "fichas": [
     {
-      "id": "22f3",
+      "id": "1",
+      "nombre": "Bruno Diaz",
+      "numAsegurado": "789456",
+      "especialidad": "Cardiología",
+      "atendido": false
+    },
+    {
+      "id": "2",
+      "nombre": "Diana Reyes",
+      "numAsegurado": "456789",
+      "especialidad": "Ginecología",
+      "atendido": false
+    },
+    {
+      "id": "3",
+      "nombre": "Gillermo Puertas",
+      "numAsegurado": "123456",
+      "especialidad": "Cardiología",
+      "atendido": false
+    },
+    {
+      "id": "4",
+      "nombre": "Carlos Sanz",
+      "numAsegurado": "456123",
+      "especialidad": "Oftalmología",
+      "atendido": false
+    },
+    {
+      "id": "f967",
       "nombre": "Bruno Diaz",
       "numAsegurado": "987654",
-      "especialidad": "cardiologia"
+      "especialidad": "Oftalmología",
+      "atendido": false
     },
     {
-      "id": "0332",
+      "id": "8294",
       "nombre": "Guillermo Puertas",
-      "numAsegurado": "456123",
-      "especialidad": "oftalmologia"
-    },
-    {
-      "id": "e8f8",
-      "nombre": "Diana Reyes",
       "numAsegurado": "123456",
-      "especialidad": "ginecologia"
-    },
-    {
-      "id": "20db",
-      "nombre": "Carlos Sanz",
-      "numAsegurado": "456789",
-      "especialidad": "reumatologia"
-    },
-    {
-      "id": "8f9e",
-      "nombre": "Diana Reyes",
-      "numAsegurado": "123456",
-      "especialidad": "ginecologia"
+      "especialidad": "Cardiología",
+      "atendido": false
     }
   ]
 }

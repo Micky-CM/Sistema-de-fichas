@@ -3,33 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/styles.css">
   <title>Registro para fichas</title>
 </head>
 <body>
   <header></header>
   <main>
-    <h2>Solicitud de Ficha Médica</h2>
-    <form id="fichaForm" data-form>
-      <label for="nombre">Nombre Completo:</label>
-      <input type="text" id="nombre" name="nombre" required>
+    <h2 class="form-title">Solicitud de Ficha Médica</h2>
+    <form class="form" id="fichaForm" data-form>
+      <fieldset class="form-fieldset">
+        <label class="form__label" for="nombre">Nombre Completo:</label>
+        <input class="form__input" placeholder="Introduzca su nombre completo" type="text" id="nombre" name="nombre" required>
+      </fieldset>
 
-      <label for="numAsegurado">Número de Asegurado:</label>
-      <input type="text" id="numAsegurado" name="numAsegurado" required>
+      <fieldset class="form-fieldset">
+        <label class="form__label" for="numAsegurado">Número de Asegurado:</label>
+        <input class="form__input" placeholder="Introduzca el número de Carnet de Asegurado" type="text" id="numAsegurado" name="numAsegurado" required>
+      </fieldset>
 
-      <label for="especialidad">Especialidad:</label>
-      <select id="especialidad" name="especialidad" required>
-        <option value="">Seleccione una especialidad</option>
-        <option value="oftalmologia">Oftalmología</option>
-        <option value="reumatologia">Reumatología</option>
-        <option value="ginecologia">Ginecología</option>
-        <option value="cardiologia">Cardiología</option>
-      </select>
+      <fieldset class="form-fieldset">
+        <label class="form__label" for="especialidad">Especialidad:</label>
+        <select class="form__select" class="form__select"  id="especialidad" name="especialidad" required>
+          <option value="">Seleccione una especialidad</option>
+
+        </select>
+      </fieldset>
 
       <button class="btn-enviar" type="submit">Solicitar Ficha</button>
     </form>
-    <a href="../index.html">Volver al inicio</a>
+    <a class="go-home" href="../index.html">Volver al inicio</a>
   </main>
   <footer></footer>
-  <script src="../js/main.js" type="module"></script>
+  <script type="module" src="../js/main.js"></script>
 </body>
 </html>

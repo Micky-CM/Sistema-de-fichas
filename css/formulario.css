@@ -1,0 +1,52 @@
+.form-title{
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.form-fieldset{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  border: none;
+  margin-bottom: 20px;
+}
+.form__label{
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+.form__input{
+  width: 400px;
+  height: 34px;
+  font-size: 16px;
+  font-weight: 400;
+  border: 2px solid green;
+  border-radius: 8px;
+  padding: 4px 8px;
+}
+.form__select{
+  width: 400px;
+  height: 34px;
+  font-size: 16px;
+  border: 2px solid green;
+  border-radius: 8px;
+  padding: 4px 8px;
+}
+.btn-enviar{
+  width: 240px;
+  height: 40px;
+  background: green;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  border: 2px solid green;
+  border-radius: 8px;
+  margin: 0 auto;
+}

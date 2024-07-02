@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', async ()=>{
         <td>${ficha.nombre}</td>
         <td>${ficha.numAsegurado}</td>
         <td>${ficha.especialidad}</td>
+        <td>${ficha.atendido}</td>
       `
       tablaFichas.appendChild(fila)
     })
