@@ -7,10 +7,10 @@ document.addEventListener('DOMContentLoaded', async ()=>{
     fichas.forEach(ficha =>{
       const fila = document.createElement('tr')
       fila.innerHTML = `
-        <td>${ficha.nombre}</td>
-        <td>${ficha.numAsegurado}</td>
-        <td>${ficha.especialidad}</td>
-        <td>${ficha.atendido}</td>
+        <td class="tb-row">${ficha.nombre}</td>
+        <td class="tb-row">${ficha.numAsegurado}</td>
+        <td class="tb-row">${ficha.especialidad}</td>
+        <td class="tb-row">${ficha.atendido}</td>
       `
       tablaFichas.appendChild(fila)
     })

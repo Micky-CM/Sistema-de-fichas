@@ -2,7 +2,7 @@ import { manejarEnvioFormulario } from './manejarFichas.js';
 import { obtenerEspecialidades } from './api.js';
 
 document.addEventListener('DOMContentLoaded', async () => {
-  const fichaForm = document.querySelector('#fichaForm');
+  const fichaForm = document.querySelector('[data-form]');
   if (fichaForm) {
     fichaForm.addEventListener('submit', manejarEnvioFormulario);
   }

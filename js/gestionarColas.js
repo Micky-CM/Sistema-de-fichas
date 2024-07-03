@@ -24,6 +24,7 @@ async function cargarColas() {
       especialidadContainer.classList.add('especialidad-container');
 
       const especialidadTitle = document.createElement('h3');
+      especialidadTitle.className = 'esp-title';
       especialidadTitle.textContent = `Especialidad: ${especialidad.charAt(0).toUpperCase() + especialidad.slice(1)}`;
       especialidadContainer.appendChild(especialidadTitle);
 
@@ -35,23 +36,23 @@ async function cargarColas() {
         const tablaFichas = document.createElement('table');
         const encabezado = document.createElement('tr');
         encabezado.innerHTML = `
-          <th>Nombre</th>
-          <th>Número de Asegurado</th>
-          <th>Acciones</th>
+          <th class="tb-header">Nombre</th>
+          <th class="tb-header">Número de Asegurado</th>
+          <th class="tb-header">Acciones</th>
         `;
         tablaFichas.appendChild(encabezado);
 
         fichas.forEach((ficha, index) => {
           const fila = document.createElement('tr');
           fila.innerHTML = `
-            <td>${ficha.nombre}</td>
-            <td>${ficha.numAsegurado}</td>
-            <td></td>
+            <td class="tb-row">${ficha.nombre}</td>
+            <td class="tb-row">${ficha.numAsegurado}</td>
+            <td class="tb-row"></td>
           `;
-          
           if (index === 0) {
             const atenderButton = document.createElement('button');
             atenderButton.textContent = 'Marcar como atendido';
+            atenderButton.className = 'atender';
             atenderButton.addEventListener('click', async () => {
               ficha.atendido = true;
               await actualizarFicha(ficha);

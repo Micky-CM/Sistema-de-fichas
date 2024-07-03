@@ -7,13 +7,39 @@
   <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-  <header></header>
+  <header>
+    <div class="logos">
+      <img class="cns-logo" src="../assets/img/cns-logo.png" alt="logo3">
+      <h1> CENTRO DE ESPECIALIDADES </h1>
+      <img class="escudo" src="../assets/img/bolivia-escudo.png" alt="logo2">
+    </div>
+    <nav class="navbar">
+      <ul class="navbar-menu">
+        <li class="navbar-item"><a href="../index.html">Inicio</a></li>
+        <li class="navbar-item"><a href="especialidades.html">Agregar Especialidades</a></li>
+        <li class="navbar-item"><a href="colas.html">Gestionar fichas</a></li>
+        <li class="navbar-item"><a href="gestionFichas.html">Reportes</a></li>
+      </ul>
+    </nav>
+  </header>
   <main>
-    <h2>Colas de Atención Médica</h2>
-    <div id="colas-container"></div>
+    <h2 class="form-title">Colas de Atención Médica</h2>
+    <div class="container" id="colas-container"></div>
+    <div class="go-home">
+      <a href="../index.html"><img src="../assets/flecha-atras.png" alt="flecha atras"> Regresar al inicio</a>
+    </div>
   </main>
-  <a class="go-home" href="../index.html">Volver al inicio</a>
-  <footer></footer>
+  <footer>
+    <div class="footer">
+      <h2>Visitanos en:</h2>
+      <div >
+        <img class="imagen_footer" src="../assets/img/social-media.png" alt="">
+      </div>
+      <h2>Calle Arenales # 568</h2>
+      <h2>Telefono 64 58421</h2>
+      <h2>All Rights Reserved ©2024 - Caja Nacional de Salud</h2>
+    </div>
+  </footer>
   <script type="module" src="../js/gestionarColas.js"></script>
 </body>
 </html>

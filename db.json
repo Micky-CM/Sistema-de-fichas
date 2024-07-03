@@ -46,16 +46,9 @@
       "atendido": false
     },
     {
-      "id": "f967",
-      "nombre": "Bruno Diaz",
+      "id": "caa1",
+      "nombre": "Juan Perez",
       "numAsegurado": "987654",
-      "especialidad": "Oftalmología",
-      "atendido": false
-    },
-    {
-      "id": "8294",
-      "nombre": "Guillermo Puertas",
-      "numAsegurado": "123456",
       "especialidad": "Cardiología",
       "atendido": false
     }

@@ -1,0 +1,34 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+  margin: 0 auto;
+}
+.especialidad-container{
+  margin-bottom: 30px;
+}
+.esp-title{
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.tb-header{
+  font-size: 18px;
+  font-weight: 600;
+  background: #004A3B;
+  color: white;
+  border: 2px solid #004A3B;
+  padding: 3px 8px;
+}
+.tb-row{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  border: 2px solid #004A3B;
+  padding: 2px 20px;
+}
+.atender{
+  font-weight: 600;
+  color: orange;
+}

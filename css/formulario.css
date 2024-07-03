@@ -1,16 +1,18 @@
 .form-title{
-  font-size: 32px;
+  font-size: 36px;
   font-weight: 800;
   text-align: center;
+  margin-bottom: 30px;
 }
 .form{
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  width: 700px;
+  margin: 0 auto;
 }
 .form-fieldset{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   height: auto;
@@ -18,35 +20,36 @@
   margin-bottom: 20px;
 }
 .form__label{
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 600;
   margin-right: 10px;
 }
 .form__input{
   width: 400px;
-  height: 34px;
+  height: 45px;
   font-size: 16px;
   font-weight: 400;
-  border: 2px solid green;
+  border: 2px solid #004A3B;
   border-radius: 8px;
   padding: 4px 8px;
 }
 .form__select{
   width: 400px;
-  height: 34px;
+  height: 45px;
   font-size: 16px;
-  border: 2px solid green;
+  border: 2px solid #004A3B;
   border-radius: 8px;
   padding: 4px 8px;
+  margin-bottom: 20px;
 }
 .btn-enviar{
   width: 240px;
-  height: 40px;
-  background: green;
+  height: 50px;
+  cursor: pointer;
+  background: #004A3B;
   color: white;
-  font-size: 18px;
-  font-weight: 400;
-  border: 2px solid green;
+  font-size: 20px;
+  font-weight: 600;
   border-radius: 8px;
   margin: 0 auto;
 }
