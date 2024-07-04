@@ -22,7 +22,7 @@
       "nombre": "Bruno Diaz",
       "numAsegurado": "789456",
       "especialidad": "Cardiología",
-      "atendido": false
+      "atendido": true
     },
     {
       "id": "2",
@@ -50,6 +50,13 @@
       "nombre": "Juan Perez",
       "numAsegurado": "987654",
       "especialidad": "Cardiología",
+      "atendido": false
+    },
+    {
+      "id": "0760",
+      "nombre": "Guillermo Puertas",
+      "numAsegurado": "456123",
+      "especialidad": "Oftalmología",
       "atendido": false
     }
   ]

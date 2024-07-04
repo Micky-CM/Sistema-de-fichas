@@ -40,7 +40,6 @@
   border: 2px solid #004A3B;
   border-radius: 8px;
   padding: 4px 8px;
-  margin-bottom: 20px;
 }
 .btn-enviar{
   width: 240px;
@@ -51,5 +50,5 @@
   font-size: 20px;
   font-weight: 600;
   border-radius: 8px;
-  margin: 0 auto;
+  margin: 20px auto 0;
 }
